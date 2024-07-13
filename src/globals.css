@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply m-0 p-0 box-border;
+  }
+}
+
+@layer utilities {
+  .text-16-normal {
+    @apply text-[16px] leading-[24px] font-normal;
+  }
+  
+  .text-16-medium {
+    @apply text-[16px] leading-[24px] font-medium;
+  }
+
+  .text-16-semibold {
+    @apply text-[16px] leading-[24px] font-semibold;
+  }
+
+  .text-18-normal {
+    @apply text-[18px] leading-[24px] font-normal;
+  }
+
+  .text-48-extrabold {
+    @apply text-[48px] leading-[60px] font-extrabold;
+  }
+
+  .bg-home {
+    @apply bg-light-2 bg-hero bg-no-repeat bg-contain bg-right;
+  }
+}
