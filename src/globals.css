@@ -9,6 +9,10 @@
 }
 
 @layer utilities {
+  .text-14-medium {
+    @apply text-[14px] leading-[24px] font-medium;
+  }
+
   .text-16-normal {
     @apply text-[16px] leading-[24px] font-normal;
   }
@@ -23,6 +27,10 @@
 
   .text-18-normal {
     @apply text-[18px] leading-[24px] font-normal;
+  }
+
+  .text-24-bold {
+    @apply text-[24px] leading-[32px] font-bold;
   }
 
   .text-48-extrabold {

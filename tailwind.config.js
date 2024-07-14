@@ -29,10 +29,13 @@ export default {
         }
       },
       fontFamily: {
-        beVietnamPro: ['"Be Vietnam Pro"', "sans-serif"]
+        beVietnamPro: ['"Be Vietnam Pro"', "sans-serif"],
       },
       backgroundImage: {
-        "hero": "url('/src/assets/images/herobg.png')"
+        "hero": "url('/src/assets/images/herobg.png')",
+      },
+      boxShadow: {
+        "search": "0px 2px 5px 2px #BECCFF",
       }
     },
   },
