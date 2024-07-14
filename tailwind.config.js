@@ -6,6 +6,20 @@ export default {
   ],
   theme: {
     extend: {
+      keyframes: {
+        rotate90: {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(90deg)' },
+        },
+        rotateback90: {
+          '0%': { transform: 'rotate(90deg)' },
+          '100%': { transform: 'rotate(0deg)' },
+        },
+      },
+      animation: {
+        'rotate-icon': 'rotate90 0.3s ease-in-out forwards',
+        'rotate-icon-back': 'rotateback90 0.3s ease-in-out forwards',
+      },
       colors: {
         light: {
           1: "#FFFFFF",
@@ -36,6 +50,7 @@ export default {
       },
       boxShadow: {
         "search": "0px 2px 5px 2px #BECCFF",
+        "card": "0px 10px 32px 0px #ACBCF5",
       }
     },
   },

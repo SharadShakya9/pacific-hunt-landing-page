@@ -9,6 +9,14 @@
 }
 
 @layer utilities {
+  .text-14-extralight {
+    @apply text-[14px] leading-[24px] font-extralight;
+  }
+
+  .text-14-normal {
+    @apply text-[14px] leading-[24px] font-normal;
+  }
+
   .text-14-medium {
     @apply text-[14px] leading-[24px] font-medium;
   }
@@ -29,6 +37,18 @@
     @apply text-[18px] leading-[24px] font-normal;
   }
 
+  .text-18-medium {
+    @apply text-[18px] leading-[24px] font-medium;
+  }
+
+  .text-18-semibold {
+    @apply text-[18px] leading-[24px] font-semibold;
+  }
+
+  .text-24-semibold {
+    @apply text-[24px] leading-[32px] font-semibold;
+  }
+
   .text-24-bold {
     @apply text-[24px] leading-[32px] font-bold;
   }
@@ -39,5 +59,9 @@
 
   .bg-home {
     @apply bg-light-2 bg-hero bg-no-repeat bg-contain bg-right;
+  }
+
+  .h1-semibold {
+    @apply text-[24px] leading-[32px] font-semibold tracking-[-0.02rem] text-dark-3 font-beVietnamPro;
   }
 }
