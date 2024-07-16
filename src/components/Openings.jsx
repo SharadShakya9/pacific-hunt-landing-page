@@ -43,7 +43,7 @@ const Openings = () => {
           </button>
         </div>
 
-        <div className="flex flex-wrap justify-between">
+        <div className="grid grid-cols-3 gap-x-7 gap-y-1">
           {opening.map((item) => (
             <>
               <OpeningsCard

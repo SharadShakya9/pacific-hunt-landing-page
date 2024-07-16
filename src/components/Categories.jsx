@@ -43,7 +43,7 @@ const Categories = () => {
           </button>
         </div>
 
-        <div className="flex flex-wrap justify-between">
+        <div className="grid grid-cols-3 gap-x-8 gap-y-1">
           {category.map((item) => (
             <>
               <CategoriesCard
