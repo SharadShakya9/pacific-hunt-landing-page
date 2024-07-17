@@ -4,7 +4,7 @@
 
 @layer base {
   * {
-    @apply m-0 p-0 box-border;
+    @apply m-0 p-0 box-border font-beVietnamPro cursor-default;
   }
 }
 
@@ -45,6 +45,10 @@
     @apply text-[18px] leading-[24px] font-semibold;
   }
 
+  .text-22-medium {
+    @apply text-[22px] leading-[28px] font-medium;
+  }
+
   .text-24-semibold {
     @apply text-[24px] leading-[32px] font-semibold;
   }
@@ -63,5 +67,13 @@
 
   .h1-semibold {
     @apply text-[24px] leading-[32px] font-semibold tracking-[-0.02rem] text-dark-3 font-beVietnamPro;
+  }
+
+  .disabled {
+    @apply cursor-default opacity-[0.5];
+  }
+
+  .custom-pagination .swiper-pagination-current {
+    @apply text-blue-1;
   }
 }

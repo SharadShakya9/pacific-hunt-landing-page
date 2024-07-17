@@ -1,7 +1,7 @@
 export const categories = [];
-for (let i = 0; i < 40; i++) {
+for (let i = 1; i <= 40; i++) {
   categories.push({
-    key: i,
+    id: i,
     name: "Graphics Design",
     openpositions: 418,
     icon: (
@@ -63,7 +63,7 @@ for (let i = 0; i < 40; i++) {
 }
 
 export const openings = [];
-for (let i = 0; i < 20; i++) {
+for (let i = 1; i <= 20; i++) {
   openings.push({
     key: i,
     name: "Deep Learning Engineer",
@@ -74,4 +74,27 @@ for (let i = 0; i < 20; i++) {
     salary: "50K -80K AUD (Yearly)",
     company: "Tesla Inc.",
   });
+}
+
+export const companies = []
+for (let i = 1; i <= 10; i++) {
+  companies.push({
+    key: i,
+    name: "Google",
+    logo: '/google.png',
+    address: 'Perth Australia',
+    jobsavailable: 50,
+    description: ["Information Technology", "Fintech"],
+  })
+}
+
+export const testimonials = []
+for (let i = 1; i <= 13; i++) {
+  testimonials.push({
+    key: i,
+    comment : "This job portal has been instrumental in advancing my career. The  interface is intuitive, making it easy to navigate through job listings  and application processes. I've received numerous interview requests and job offers through this portal. I highly recommend it to anyone seeking new  career opportunities.",
+    clientname: "Amanda Bell",
+    clienttitle: "Product Designer",
+    profilepic: "/pfp.png"
+  })
 }

@@ -3,7 +3,7 @@ import VerfiedIcon from "../assets/icons/verified.svg";
 import Button from "./ui/Button";
 import SearchIcon from "../assets/icons/search.svg";
 import LocationIcon from "../assets/icons/location.svg";
-import VacancyIcon from "../assets/icons/vacancy.svg"
+import VacancyIcon from "../assets/icons/vacancy.svg";
 
 const Home = () => {
   return (
@@ -12,18 +12,18 @@ const Home = () => {
         <div className="flex flex-col gap-[25px]">
           <div className="flex gap-[12px]">
             <img src={VerfiedIcon} alt="verified" />
-            <p className="text-dark-3 font-beVietnamPro text-16-medium">
+            <p className="text-dark-3   text-16-medium">
               Your Trusted Career Partner
             </p>
           </div>
 
           <div>
-            <p className="text-dark-1 font-beVietnamPro text-48-extrabold">
+            <p className="text-dark-1 text-48-extrabold">
               Unlock Your Dream <span className="text-blue-1">Career</span>
             </p>
           </div>
           <div>
-            <p className="w-1/2 text-dark-4 font-beVietnamPro text-18-normal">
+            <p className="w-1/2 text-dark-4   text-18-normal">
               Our platform is dedicated to empowering individuals, connecting
               talent with the right opportunities, and fostering professional
               growth
@@ -36,16 +36,16 @@ const Home = () => {
             <div className="flex items-center gap-2 rounded-md">
               <img src={SearchIcon} alt="" />
               <input
-                className="placeholder:font-beVietnamPro placeholder:text-light-5 text-16-normal"
+                className="placeholder:  placeholder:text-light-5 text-16-normal"
                 type="text"
                 placeholder="Job title, Keyword..."
               />
-              <div className="w-[32px] h-0 border border-[#D0D1D1] rotate-90"/>
+              <div className="w-[32px] h-0 border border-[#D0D1D1] rotate-90" />
             </div>
             <div className="flex items-center gap-2 rounded-md">
               <img src={LocationIcon} alt="" />
               <input
-                className="placeholder:font-beVietnamPro placeholder:text-light-5 text-16-normal"
+                className="placeholder:text-light-5 text-16-normal"
                 type="text"
                 placeholder="Enter location"
               />
@@ -53,7 +53,7 @@ const Home = () => {
             <Button type="dark">Search Job</Button>
           </div>
           <div>
-            <p className="text-dark-5 font-beVietnamPro text-16-normal">
+            <p className="text-dark-5   text-16-normal">
               <span className="text-dark-3 text-16-semibold">
                 Popular Searches:{" "}
               </span>

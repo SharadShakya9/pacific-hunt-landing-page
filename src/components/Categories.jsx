@@ -13,14 +13,14 @@ const Categories = () => {
 
   return (
     <div className="w-full py-[100px] bg-white flex justify-center items-center">
-      <div className="w-[80%] flex flex-col gap-[25px]">
+      <div className="w-[90%] flex flex-col gap-[25px]">
         <div className="w-full flex justify-between items-center">
           <h1 className="h1-semibold">Popular Categories</h1>
           <button
             className="px-[24px] py-[16px] flex items-center justify-center gap-2 cursor-pointer rounded-md border border-light-4"
             onClick={handleSeeMore}
           >
-            <p className="font-beVietnamPro text-blue-1 text-16-medium">
+            <p className="  text-blue-1 text-16-medium">
               {seeMore ? "See Less" : "See More"}
             </p>
             <svg
@@ -45,14 +45,12 @@ const Categories = () => {
 
         <div className="grid grid-cols-3 gap-x-8 gap-y-1">
           {category.map((item) => (
-            <>
               <CategoriesCard
-                key={item.key}
+                key={item.id}
                 name={item.name}
                 positions={item.openpositions}
                 icon={item.icon}
               />
-            </>
           ))}
         </div>
       </div>

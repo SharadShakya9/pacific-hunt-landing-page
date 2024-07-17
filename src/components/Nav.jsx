@@ -11,10 +11,10 @@ const Nav = () => {
         </div>
         <div className="flex items-center gap-[32px]">
           <nav className="flex gap-[32px]">
-            <a href="" className="text-16-medium text-dark-3 font-beVietnamPro">Home</a>
-            <a href="" className="text-16-medium text-dark-3 font-beVietnamPro">Jobs</a>
-            <a href="" className="text-16-medium text-dark-3 font-beVietnamPro">Companies</a>
-            <a href="" className="text-16-medium text-dark-3 font-beVietnamPro">About us</a>
+            <a href="" className="text-16-medium text-dark-3  ">Home</a>
+            <a href="" className="text-16-medium text-dark-3  ">Jobs</a>
+            <a href="" className="text-16-medium text-dark-3  ">Companies</a>
+            <a href="" className="text-16-medium text-dark-3  ">About us</a>
           </nav>
 
           <div className="flex gap-[16px]">

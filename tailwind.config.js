@@ -4,6 +4,7 @@ export default {
     "./index.html",
     "./src/**/*.{html,js,jsx}",
   ],
+  important: true,
   theme: {
     extend: {
       keyframes: {
@@ -34,6 +35,7 @@ export default {
           3: "#3C3D3D",
           4: "#4E4F50",
           5: "#6B6D6F",
+          6: "#D0D1D1"
         },
         blue: {
           1: "#01A3E0",

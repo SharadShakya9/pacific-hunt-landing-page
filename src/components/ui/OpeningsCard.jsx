@@ -25,24 +25,24 @@ const OpeningsCard = ({
         <Button type="light">Apply Now</Button>
       </div>
 
-      <p className="text-dark-3 font-beVietnamPro text-18-semibold">{name}</p>
+      <p className="text-dark-3   text-18-semibold">{name}</p>
 
       <div className="flex gap-2">
         <div className="flex">
           <img src={AddressIcon} alt="" />
-          <p className="text-dark-5 font-beVietnamPro text-14-extralight">
+          <p className="text-dark-5   text-14-extralight">
             {address}
           </p>
         </div>
         <div className="flex gap-1">
           <img src={ExpiryIcon} alt="" />
-          <p className="text-dark-5 font-beVietnamPro text-14-extralight">
+          <p className="text-dark-5   text-14-extralight">
             Expires in {expiryDays} Days
           </p>
         </div>
       </div>
 
-      <div className="font-beVietnamPro text-dark-3 text-16-normal">
+      <div className="  text-dark-3 text-16-normal">
         <div className="flex gap-4 items-center text-center ">
           <span>{type[0]}</span>
           <div className="w-[6px] h-[6px] bg-light-5 rounded-full" />

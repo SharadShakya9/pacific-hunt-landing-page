@@ -1,21 +1,20 @@
 import React, { useState } from "react";
-import { openings } from "../data";
-import OpeningsCard from "./ui/OpeningsCard";
+import { companies } from "../data";
+import CompaniesCard from "./ui/CompaniesCard";
 
-const Openings = () => {
+const FeaturedCompanies = () => {
   const [seeMore, setSeeMore] = useState(false);
 
   const handleSeeMore = () => {
     setSeeMore(!seeMore);
   };
 
-  var opening = seeMore ? openings : openings.slice(0, 6);
-
+  var company = seeMore ? companies : companies.slice(0, 6);
   return (
     <div className="w-full py-[100px] bg-white flex justify-center items-center">
       <div className="w-[90%] flex flex-col gap-[25px]">
         <div className="w-full flex justify-between items-center">
-          <h1 className="h1-semibold">Top Job Openings</h1>
+          <h1 className="h1-semibold">Featured Companies</h1>
           <button
             className="px-[24px] py-[16px] flex items-center justify-center gap-2 cursor-pointer rounded-md border border-light-4"
             onClick={handleSeeMore}
@@ -43,17 +42,15 @@ const Openings = () => {
           </button>
         </div>
 
-        <div className="grid grid-cols-3 gap-x-7 gap-y-1">
-          {opening.map((item) => (
-              <OpeningsCard
+        <div className="grid grid-cols-3 gap-x-8 gap-y-5">
+          {company.map((item) => (
+              <CompaniesCard
                 key={item.key}
                 name={item.name}
                 logo={item.logo}
                 address={item.address}
-                expiryDays={item.expirydays}
-                type={item.type}
-                salary={item.salary}
-                company={item.company}
+                jobs={item.jobsavailable}
+                desc={item.description}
               />
           ))}
         </div>
@@ -62,4 +59,4 @@ const Openings = () => {
   );
 };
 
-export default Openings;
+export default FeaturedCompanies;
