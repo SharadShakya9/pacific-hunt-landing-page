@@ -4,8 +4,8 @@ import Button from "./ui/Button";
 
 const Nav = () => {
   return (
-    <div>
-      <nav className="w-full flex justify-around py-[16px]">
+    <div className="w-full flex justify-center">
+      <nav className="w-[90%] flex justify-between py-[16px]">
         <div>
           <img src={Logo} alt="main-logo" />
         </div>

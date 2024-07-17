@@ -6,6 +6,8 @@ import Openings from "./components/Openings";
 import RenownedCompanies from "./components/RenownedCompanies";
 import FeaturedCompanies from "./components/FeaturedCompanies";
 import Testimonials from "./components/Testimonials";
+import Join from "./components/Join";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <RenownedCompanies/>
       <FeaturedCompanies/>
       <Testimonials/>
+      <Join/>
+      <Footer/>
     </>
   );
 }

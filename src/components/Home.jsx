@@ -7,7 +7,7 @@ import VacancyIcon from "../assets/icons/vacancy.svg";
 
 const Home = () => {
   return (
-    <div className="relative w-full h-[600px] bg-home px-[100px] flex items-center">
+    <div className="relative w-full h-[600px] bg-home justify-center flex items-center">
       <div className="flex flex-col gap-[60px]">
         <div className="flex flex-col gap-[25px]">
           <div className="flex gap-[12px]">
