@@ -8,10 +8,11 @@ import FeaturedCompanies from "./components/FeaturedCompanies";
 import Testimonials from "./components/Testimonials";
 import Join from "./components/Join";
 import Footer from "./components/Footer";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <Nav/>
       <Home/>
       <Categories/>
@@ -21,7 +22,7 @@ function App() {
       <Testimonials/>
       <Join/>
       <Footer/>
-    </>
+    </BrowserRouter>
   );
 }
 

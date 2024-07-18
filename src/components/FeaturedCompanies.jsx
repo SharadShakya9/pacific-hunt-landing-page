@@ -11,7 +11,7 @@ const FeaturedCompanies = () => {
 
   var company = seeMore ? companies : companies.slice(0, 6);
   return (
-    <div className="w-full py-[100px] bg-white flex justify-center items-center">
+    <div id="companies" className="w-full py-[100px] bg-white flex justify-center items-center">
       <div className="w-[90%] flex flex-col gap-[25px]">
         <div className="w-full flex justify-between items-center">
           <h1 className="h1-semibold">Featured Companies</h1>

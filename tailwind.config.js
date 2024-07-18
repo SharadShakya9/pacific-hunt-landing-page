@@ -4,7 +4,6 @@ export default {
     "./index.html",
     "./src/**/*.{html,js,jsx}",
   ],
-  important: true,
   theme: {
     extend: {
       keyframes: {
@@ -55,6 +54,7 @@ export default {
       boxShadow: {
         "search": "0px 2px 5px 2px #BECCFF",
         "card": "0px 10px 32px 0px #ACBCF5",
+        "nav": "0px 1px 0px 0px #E5E9F2"
       }
     },
   },

@@ -12,7 +12,7 @@ const Categories = () => {
   var category = seeMore ? categories : categories.slice(0, 6);
 
   return (
-    <div className="w-full py-[100px] bg-white flex justify-center items-center">
+    <div id="about" className="w-full py-[100px] bg-white flex justify-center items-center">
       <div className="w-[90%] flex flex-col gap-[25px]">
         <div className="w-full flex justify-between items-center">
           <h1 className="h1-semibold">Popular Categories</h1>
