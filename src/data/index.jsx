@@ -82,7 +82,7 @@ for (let i = 1; i <= 10; i++) {
     key: i,
     name: "Google",
     logo: '/google.png',
-    address: 'Perth Australia',
+    address: 'Perth, Australia',
     jobsavailable: 50,
     description: ["Information Technology", "Fintech"],
   })
