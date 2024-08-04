@@ -36,7 +36,7 @@ const Home = () => {
             <div className="flex items-center gap-2 rounded-md">
               <img src={SearchIcon} alt="" />
               <input
-                className="placeholder:  placeholder:text-light-5 text-16-normal"
+                className="cursor-text  placeholder:text-light-5 text-16-normal"
                 type="text"
                 placeholder="Job title, Keyword..."
               />
@@ -45,7 +45,7 @@ const Home = () => {
             <div className="flex items-center gap-2 rounded-md">
               <img src={LocationIcon} alt="" />
               <input
-                className="placeholder:text-light-5 text-16-normal"
+                className="placeholder:text-light-5 text-16-normal cursor-text"
                 type="text"
                 placeholder="Enter location"
               />

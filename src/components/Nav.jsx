@@ -35,11 +35,11 @@ const Nav = () => {
 
   return (
     <div className="w-full fixed top-0 z-50 bg-white flex justify-center shadow-nav">
-      <nav className="w-[90%] flex justify-between py-[16px]">
+      <nav className="w-[90%] flex justify-between items-center py-[16px]">
         <div>
           <img src={Logo} alt="main-logo" />
         </div>
-        <div className="flex items-center gap-[32px]">
+        <div className="md:flex items-center gap-[32px] hidden">
           <nav className="flex gap-[32px]">
             <HashLink to="#home" className="text-16-medium text-dark-3">
               <NavItem
